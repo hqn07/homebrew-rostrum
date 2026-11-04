@@ -1,13 +1,13 @@
 cask "studybar" do
-  version "2.13.0"
-  sha256 "0de321eeaf16b8210f6cce4eb3d0b423ab783cc66578c082655955b54c5c0f02"
+  version "3.0.0"
+  sha256 "4a0a51f56d9aae0c5af41aa1b632c158f9211b21eafc2b274951e465d5815ea3"
 
-  url "https://github.com/hqn07/studybar/releases/download/v#{version}/StudyBar-#{version}.dmg"
-  name "StudyBar"
-  desc "Free menu bar study companion"
-  homepage "https://github.com/hqn07/studybar"
+  url "https://github.com/hqn07/rostrum/releases/download/v#{version}/Rostrum-#{version}.dmg"
+  name "Rostrum"
+  desc "Menu bar study companion"
+  homepage "https://github.com/hqn07/rostrum"
 
-  app "StudyBar.app"
+  app "Rostrum.app"
 
   zap trash: [
     "~/Library/Application Support/StudyBar",
