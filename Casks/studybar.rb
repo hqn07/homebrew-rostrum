@@ -1,6 +1,6 @@
 cask "studybar" do
-  version "3.2.1"
-  sha256 "443b31110a9419d02805bac4f0ac850ab3fff2938b103e78ac05d2ea05676299"
+  version "3.3.0"
+  sha256 "93df9b01c443ec391af6f9eafe446e84993207fa1731f9f8485d98edf4be96d8"
 
   url "https://github.com/hqn07/rostrum/releases/download/v#{version}/Rostrum-#{version}.dmg"
   name "Rostrum"
