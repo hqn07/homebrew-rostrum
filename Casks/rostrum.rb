@@ -1,6 +1,6 @@
 cask "rostrum" do
-  version "3.6.0"
-  sha256 "0648209b5bcbfcb4af00a9deeb8755700be344e05dce433b4cfc1e48efde381b"
+  version "3.7.0"
+  sha256 "33b3cf54d253d021c7e6b7adf6ff411ed6b8cb2de173db6b9af34e86991bd010"
 
   url "https://github.com/hqn07/rostrum/releases/download/v#{version}/Rostrum-#{version}.dmg"
   name "Rostrum"
