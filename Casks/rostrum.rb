@@ -5,12 +5,12 @@ cask "rostrum" do
   url "https://github.com/hqn07/rostrum/releases/download/v#{version}/Rostrum-#{version}.dmg"
   name "Rostrum"
   desc "Study app: record lectures, notes, AI tutor, flashcards"
-  homepage "https://rostrumstudy.app"
+  homepage "https://rostrumstudy.app/"
 
   auto_updates true
+  depends_on macos: :sonoma
+
   app "Rostrum.app"
 
-  zap trash: [
-    "~/Library/Application Support/StudyBar",
-  ]
+  zap trash: "~/Library/Application Support/StudyBar"
 end
